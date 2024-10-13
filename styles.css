@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #15054a;
+}
+
+.signup-container {
+    background-color: #0d4c56;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.signup-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.signup-container p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.facebook-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #3e0eff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook-btn:hover {
+    background-color: #9bb0dc;
+}
+
+.divider {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #eeeeee;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.create-btn {
+    padding: 15px;
+    font-size: 16px;
+    color: #eaeaea;
+    background-color: #ff9500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background-color: #111827;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b4b4b4;
+}
+
+.terms a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
